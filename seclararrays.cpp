@@ -16,5 +16,5 @@ int main()
 			se=a[i];
 		}
 	}
-	cout<<"The second largest element is"<<se;
+	cout<<"The second largest element is "<<se;
 }
