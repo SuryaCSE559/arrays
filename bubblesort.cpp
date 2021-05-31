@@ -17,12 +17,12 @@ int main()
 		{
 			if(a[j]>a[j+1])//swapping will occurs based on this condition
 			{
-				swap(a[j],a[j+1]);
+				swap(a[j],a[j+1]);//swapping the elements
 				s=1;
 			}
 		}
 		//optimization2-if the elements are in sorted order,the swap will not takes place.
-		if(s==0)
+		if(s==0)//breaks if no swap will occured
 			break;
 	}
 	for(int i=0;i<num;i++)
